@@ -1,0 +1,210 @@
+### Question 1: Sum of Multiples
+
+Given a positive integer `n`, write a function to compute the sum of all integers between 1 and `n` that are divisible by 3 or 5.
+
+**Function Signature:**
+```java
+public int sumOfMultiples(int n)
+```
+
+**Input:**
+- A single integer `n` (1 ≤ n ≤ 10,000).
+
+**Output:**
+- Return the sum of all integers between 1 and `n` that are divisible by 3 or 5.
+
+**Example:**
+Input: `n = 10`  
+Output: `33`  
+Explanation: The numbers divisible by 3 or 5 are 3, 5, 6, 9, 10. Their sum is 33.
+
+---
+
+### Question 2: Reverse an Array
+
+Given an array of integers, return a new array that is the reverse of the input array.
+
+**Function Signature:**
+```java
+public int[] reverseArray(int[] arr)
+```
+
+**Input:**
+- An array of integers `arr` (1 ≤ arr.length ≤ 1,000).
+
+**Output:**
+- A new array that is the reverse of the input array.
+
+**Example:**
+Input: `arr = [1, 2, 3, 4, 5]`  
+Output: `[5, 4, 3, 2, 1]`
+
+---
+
+### Question 3: Count Primes
+
+Write a function to count the number of prime numbers less than a given number `n`.
+
+**Function Signature:**
+```java
+public int countPrimes(int n)
+```
+
+**Input:**
+- A single integer `n` (2 ≤ n ≤ 10,000).
+
+**Output:**
+- Return the number of prime numbers less than `n`.
+
+**Example:**
+Input: `n = 10`  
+Output: `4`  
+Explanation: There are 4 prime numbers less than 10: 2, 3, 5, 7.
+
+---
+
+### Question 4: FizzBuzz
+
+Write a function that returns a list of strings representing the numbers from 1 to `n`. For multiples of 3, return “Fizz” instead of the number, and for multiples of 5, return “Buzz”. For numbers that are multiples of both 3 and 5, return “FizzBuzz”.
+
+**Function Signature:**
+```java
+public List<String> fizzBuzz(int n)
+```
+
+**Input:**
+- A single integer `n` (1 ≤ n ≤ 1,000).
+
+**Output:**
+- A list of strings representing the FizzBuzz output.
+
+**Example:**
+Input: `n = 5`  
+Output: `["1", "2", "Fizz", "4", "Buzz"]`
+
+---
+
+### Question 5: Factorial Calculation
+
+Write a function to compute the factorial of a given non-negative integer `n` using a `for` loop.
+
+**Function Signature:**
+```java
+public long factorial(int n)
+```
+
+**Input:**
+- A single integer `n` (0 ≤ n ≤ 20).
+
+**Output:**
+- Return the factorial of `n`.
+
+**Example:**
+Input: `n = 5`  
+Output: `120`  
+Explanation: 5! = 5 × 4 × 3 × 2 × 1 = 120.
+
+---
+
+### Question 6: Find Maximum in Array
+
+Write a function to find the maximum value in an array of integers.
+
+**Function Signature:**
+```java
+public int findMax(int[] arr)
+```
+
+**Input:**
+- An array of integers `arr` (1 ≤ arr.length ≤ 1,000).
+
+**Output:**
+- Return the maximum value in the array.
+
+**Example:**
+Input: `arr = [1, 5, 3, 9, 2]`  
+Output: `9`
+
+---
+
+### Question 7: Generate Multiplication Table
+
+Write a function to generate the multiplication table for a given integer `n` up to 10.
+
+**Function Signature:**
+```java
+public List<String> multiplicationTable(int n)
+```
+
+**Input:**
+- A single integer `n` (1 ≤ n ≤ 20).
+
+**Output:**
+- A list of strings representing the multiplication table.
+
+**Example:**
+Input: `n = 5`  
+Output: `["5 x 1 = 5", "5 x 2 = 10", ..., "5 x 10 = 50"]`
+
+---
+
+### Question 8: Count Vowels
+
+Write a function to count the number of vowels in a given string.
+
+**Function Signature:**
+```java
+public int countVowels(String s)
+```
+
+**Input:**
+- A string `s` (1 ≤ s.length() ≤ 1,000).
+
+**Output:**
+- Return the count of vowels (a, e, i, o, u) in the string.
+
+**Example:**
+Input: `s = "hello world"`  
+Output: `3`
+
+---
+
+### Question 9: Find Second Largest Element
+
+Write a function to find the second largest element in an array of integers. Assume the array has at least two distinct elements.
+
+**Function Signature:**
+```java
+public int secondLargest(int[] arr)
+```
+
+**Input:**
+- An array of integers `arr` (2 ≤ arr.length ≤ 1,000).
+
+**Output:**
+- Return the second largest element in the array.
+
+**Example:**
+Input: `arr = [10, 20, 5, 15]`  
+Output: `15`
+
+---
+
+### Question 10: Check Palindrome
+
+Write a function to check if a given string is a palindrome. A palindrome reads the same backward as forward.
+
+**Function Signature:**
+```java
+public boolean isPalindrome(String s)
+```
+
+**Input:**
+- A string `s` (1 ≤ s.length() ≤ 1,000).
+
+**Output:**
+- Return `true` if the string is a palindrome, otherwise return `false`.
+
+**Example:**
+Input: `s = "racecar"`  
+Output: `true`
