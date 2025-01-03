@@ -1,5 +1,7 @@
 package forloop;
 
+//### Question 3: Count
+
 public class forloop3 {
     public static void main(String[] args) {
         int n = 10;
@@ -26,13 +28,3 @@ public class forloop3 {
          return primeCount;
     }
 }
-
-//**Input:**
-//        - A single integer `n` (2 ≤ n ≤ 10,000).
-//
-//        **Output:**
-//        - Return the number of prime numbers less than `n`.
-//**Example:**
-//Input: `n = 10`
-//Output: `4`
-//Explanation: There are 4 prime numbers less than 10: 2, 3, 5,
